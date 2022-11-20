@@ -1,0 +1,52 @@
+body{
+    background-color: #252424 !important;
+}
+
+.card{
+    margin-top: 20px;
+
+    max-height: 25rem !important;
+    min-height: 25rem !important;
+}
+
+.comprar{
+    /* botao flutuante redondo */
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgb(16, 109, 24);
+    border: rgb(16, 109, 24);
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    box-shadow: 0 0 10px #000;
+    z-index: 999;
+}
+
+.cart{
+    border-radius: 50%;
+    background-color: rgb(255, 255, 255);
+    border: rgb(255, 255, 255);
+    width: 40px;
+    height: 40px;
+
+    /* alinhar itens no centro */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qtd-cart{
+    position: absolute;
+    bottom: 0;
+    right: 1%;
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    font-size: 12px;
+    padding: 2px 5px;
+    border-radius: 50%;
+}
+

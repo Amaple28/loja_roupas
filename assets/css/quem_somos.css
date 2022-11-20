@@ -1,0 +1,11 @@
+body{
+    background-color: #252424 !important;
+}
+
+.caixa{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
